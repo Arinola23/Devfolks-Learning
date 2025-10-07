@@ -1,0 +1,190 @@
+body{
+    background-color: #ebd6a4ff;
+    color: black;
+    font:normal 16px  Arial, Helvitica, sans-serif;
+    line-height: 1.6em;
+    /* margin: 0; */
+}   
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: blue
+}
+
+a:active {
+    color: red;
+}
+
+.button {
+    background-color: #ff4f4fff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+}
+
+.button:hover {
+    background-color: #000; 
+}
+
+.clr {
+    clear: both;
+} 
+
+.box-1 {
+    background-color: #7a6d4eff;
+    color: #f9f3f3ff;  
+    border: black 2px solid;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.box-1 h1 {
+    font-family: Tahoma;
+    font-weight: 800;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    word-spacing: 1em;
+}
+
+.box-2 {
+    border: 3px dotted #363634ff;
+    padding: 20px ;
+    margin: 20px 0;
+}
+
+.med-types{
+    border: 1px #363634ff solid;
+    padding: 10px;
+    border-radius:15px;
+    margin-bottom: 80px;
+}
+
+.med-types h2{
+        text-align: center;
+}
+
+.med-types ul{
+    
+}
+
+.med-types ul li {
+        list-style: square; 
+        padding-bottom: 6px;
+        /* list-style-image: url("../check.png") */
+}
+
+
+/* a:visited {
+    color: purple;
+} */
+
+.my-form{
+    padding: 20px;
+}
+
+.my-form .form-group {
+    padding-bottom: 15px;
+}
+
+.my-form label {
+    display: block;
+}
+
+.my-form input[type="text"] {
+    padding: 8px;
+    width: 100%
+}
+
+/* .my-form input[type="submit"] {
+    background-color: #ff4f4fff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px,
+
+} */
+
+.block {
+    float: right;
+    width: 33.3%;
+    border:1px solid #504f4fff;
+    border-radius: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#main-block {
+    float:left;
+    width: 70%;
+}
+
+#sidebar {
+    float: right;
+    width: 30%;
+    background-color: #333;
+    color: #fff;
+    padding:15px;
+    box-sizing: border-box;
+}
+
+.positioning-box {
+    margin-top: 30px;
+    width: 500px;
+    height: 500px;
+    border: 1px solid #000;
+    position: relative;
+    border-radius: 5px;
+    background-image: url("./flowerImg.jpg");
+    background-postion: 100px 200px;
+    background-repeat: no repeat;
+    background-position: center bottom  ;
+}
+
+
+.positioning-box h1{
+    position:absolute;
+    top: 100px;
+    left: 200px;
+}
+
+.positioning-box h2{
+    position: absolute;
+    bottom: 40px;
+    right: 100px;
+}
+
+.fix-me {
+    position: fixed;
+    top: 100px;
+    left: 0;
+}
+
+.my-list li:first-child {
+    background:yellow;
+}
+
+.my-list li:last-child {
+    background:blue;
+}
+
+.my-list li:nth-child(5) {
+    background:pink;
+}
+
+.my-list li:nth-child(even) {
+    background:red;
+}
